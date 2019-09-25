@@ -1,0 +1,22 @@
+#back{
+    background-color:whitesmoke;
+}
+q1,q2{
+    padding-bottom: 50px;
+}
+img{
+    box-shadow: 5px 10px #DCDCDC;
+}
+h1:hover{
+    transition: color 0.5s ease;
+    color: red;
+}
+button:hover{
+    width: 300px;
+}
+h3{
+    letter-spacing: 3px;
+}
+#p1{
+    color: blue;
+}

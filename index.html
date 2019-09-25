@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charsset="utf-8">
+        <title>Shopping Cart</title>
+           <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" ></script>
+        
+    </head>
+    <body id="back" class="text-left">
+        <h1 class="jumbotron"> <strong>Shopping Cart</strong>(2 items)</h1>
+        
+        <img src="img/pencil.png" alt="pic of pencil"></img>
+        <h3><span id="markImg1"></span>Pencil</h3>
+        <input type="text" id="q1">
+        <br><br>
+        <div id="q1Feedback"></div>
+        <br><br>
+       
+        
+        <img src="img/sharpi.png" id="pic" alt="picture of sharpie marker"></img>
+        <h3><span id="markImg2"></span>Sharpie</h3>
+        <input type="text" id="q2">
+        <br><br>
+        <div id="q2Feedback"></div>
+        <br><br>
+        
+        
+        
+        <h3 id="validationFdbk" class="bg-danger text-white"></h3>
+        <button class="btn btn-outline-success">Update Cart</button>
+        <div id="Total"></div>
+        <h3 id="p1"></h3>
+        
+        <script src="js/functions.js"></script>
+    </body>
+   
+</html>
